@@ -1,0 +1,634 @@
+<?xml version='1.0' encoding='utf-8'?>
+<MixxxControllerPreset schemaVersion="1" mixxxVersion="">
+    <info/>
+    <controller id="Arduino">
+        <scriptfiles>
+            <file filename="Arduino_Leonardo_MIDI_1.midi-scripts.js"
+                  functionprefix="ARDU"/>
+        </scriptfiles>
+        <controls>
+            <!--  ==== Channel 1 temporary TEMPO change DOWN ====  -->
+            <control>
+                <group>[Channel1]</group>
+                <key>rate_temp_down</key>
+                <description>[Channel1] rate_temp_down, noteOff</description>
+                <status>0x80</status>
+                <midino>0x20</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>rate_temp_down</key>
+                <description>[Channel1] rate_temp_down, noteOn</description>
+                <status>0x90</status>
+                <midino>0x20</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>rate_temp_down_small</key>
+                <description>[Channel1] rate_temp_down_small, noteOff</description>
+                <status>0x80</status>
+                <midino>0x22</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>rate_temp_down_small</key>
+                <description>[Channel1] rate_temp_down_small, noteOn</description>
+                <status>0x90</status>
+                <midino>0x22</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <!--  ==== Channel 1 temporary TEMPO change UP ====  -->
+            <control>
+                <group>[Channel1]</group>
+                <key>rate_temp_up_small</key>
+                <description>[Channel1] rate_temp_up_small, noteOff</description>
+                <status>0x80</status>
+                <midino>0x26</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>rate_temp_up_small</key>
+                <description>[Channel1] rate_temp_up_small, noteOn</description>
+                <status>0x90</status>
+                <midino>0x26</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>rate_temp_up</key>
+                <description>[Channel1] rate_temp_up, noteOff</description>
+                <status>0x80</status>
+                <midino>0x28</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>rate_temp_up</key>
+                <description>[Channel1] rate_temp_up, noteOn</description>
+                <status>0x90</status>
+                <midino>0x28</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <!--  ==== Channel 2 temporary TEMPO change DOWN ====  -->
+            <control>
+                <group>[Channel2]</group>
+                <key>rate_temp_down</key>
+                <description>[Channel2] rate_temp_down, noteOff</description>
+                <status>0x80</status>
+                <midino>0x21</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>rate_temp_down</key>
+                <description>[Channel2] rate_temp_down, noteOn</description>
+                <status>0x90</status>
+                <midino>0x21</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>rate_temp_down_small</key>
+                <description>[Channel2] rate_temp_down_small, noteOff</description>
+                <status>0x80</status>
+                <midino>0x23</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>rate_temp_down_small</key>
+                <description>[Channel2] rate_temp_down_small, noteOn</description>
+                <status>0x90</status>
+                <midino>0x23</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <!--  ==== Channel 2 temporary TEMPO change UP ====  -->
+            <control>
+                <group>[Channel2]</group>
+                <key>rate_temp_up_small</key>
+                <description>[Channel2] rate_temp_up_small, noteOff</description>
+                <status>0x80</status>
+                <midino>0x27</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>rate_temp_up_small</key>
+                <description>[Channel2] rate_temp_up_small, noteOn</description>
+                <status>0x90</status>
+                <midino>0x27</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>rate_temp_up</key>
+                <description>[Channel2] rate_temp_up, noteOff</description>
+                <status>0x80</status>
+                <midino>0x29</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>rate_temp_up</key>
+                <description>[Channel2] rate_temp_up, noteOn</description>
+                <status>0x90</status>
+                <midino>0x29</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <!--  ==== Channel 1 BeatLoop Size ====  -->
+            <control>
+                <group>[Channel1]</group>
+                <key>ARDU.beatloopTwoBeats</key>
+                <description>[Channel1]  ARDU.beatloopTwoBeats</description>
+                <status>0x90</status>
+                <midino>0x08</midino>
+                <options>
+                    <Script-Binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>ARDU.beatloopFourBeats</key>
+                <description>[Channel1]  ARDU.beatloopFourBeats</description>
+                <status>0x90</status>
+                <midino>0x09</midino>
+                <options>
+                    <Script-Binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>ARDU.beatloopEightBeats</key>
+                <description>[Channel1]  ARDU.beatloopEightBeats</description>
+                <status>0x90</status>
+                <midino>0x0A</midino>
+                <options>
+                    <Script-Binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>ARDU.beatloopSixteenBeats</key>
+                <description>[Channel1]  ARDU.beatloopSixteenBeats</description>
+                <status>0x90</status>
+                <midino>0x0B</midino>
+                <options>
+                    <Script-Binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>ARDU.beatloopThirtytwoBeats</key>
+                <description>[Channel1]  ARDU.beatloopThirtytwoBeats</description>
+                <status>0x90</status>
+                <midino>0x0C</midino>
+                <options>
+                    <Script-Binding/>
+                </options>
+            </control>
+            <!--  ==== Channel 2 BeatLoop Size ====  -->
+            <control>
+                <group>[Channel2]</group>
+                <key>ARDU.beatloopTwoBeats</key>
+                <description>[Channel2]  ARDU.beatloopTwoBeats</description>
+                <status>0x90</status>
+                <midino>0x0E</midino>
+                <options>
+                    <Script-Binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>ARDU.beatloopFourBeats</key>
+                <description>[Channel2]  ARDU.beatloopFourBeats</description>
+                <status>0x90</status>
+                <midino>0x0F</midino>
+                <options>
+                    <Script-Binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>ARDU.beatloopEightBeats</key>
+                <description>[Channel2]  ARDU.beatloopEightBeats</description>
+                <status>0x90</status>
+                <midino>0x10</midino>
+                <options>
+                    <Script-Binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>ARDU.beatloopSixteenBeats</key>
+                <description>[Channel2]  ARDU.beatloopSixteenBeats</description>
+                <status>0x90</status>
+                <midino>0x11</midino>
+                <options>
+                    <Script-Binding/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>ARDU.beatloopThirtytwoBeats</key>
+                <description>[Channel2]  ARDU.beatloopThirtytwoBeats</description>
+                <status>0x90</status>
+                <midino>0x12</midino>
+                <options>
+                    <Script-Binding/>
+                </options>
+            </control>
+            <!--  ==== PLAY ====  -->
+            <control>
+                <group>[Channel1]</group>
+                <key>play</key>
+                <description>[Channel1] play noteOn</description>
+                <status>0x90</status>
+                <midino>0x3D</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>play</key>
+                <description>[Channel1] play noteOff</description>
+                <status>0x80</status>
+                <midino>0x3D</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>play</key>
+                <description>[Channel2] play noteOn</description>
+                <status>0x90</status>
+                <midino>0x3F</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>play</key>
+                <description>[Channel2] play noteOff</description>
+                <status>0x80</status>
+                <midino>0x3F</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <!--  ==== CUE CDJ ====  -->
+            <control>
+                <group>[Channel1]</group>
+                <key>cue_cdj</key>
+                <description>[Channel1] cue_cdj noteOn</description>
+                <status>0x90</status>
+                <midino>0x3C</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>cue_cdj</key>
+                <description>[Channel1] cue_cdj noteOff</description>
+                <status>0x80</status>
+                <midino>0x3C</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>cue_cdj</key>
+                <description>[Channel2] cue_cdj noteOn</description>
+                <status>0x90</status>
+                <midino>0x3E</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>cue_cdj</key>
+                <description>[Channel2] cue_cdj noteOff</description>
+                <status>0x80</status>
+                <midino>0x3E</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <!--  ==== BeatLoop Activate ====  -->
+            <control>
+                <group>[Channel1]</group>
+                <key>beatloop_activate</key>
+                <description>[Channel1] beatloop_activate noteOn</description>
+                <status>0x90</status>
+                <midino>0x39</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>beatloop_activate</key>
+                <description>[Channel2] beatloop_activate noteOn</description>
+                <status>0x90</status>
+                <midino>0x3B</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <!--  ==== BeatJump Backward ====  -->
+            <control>
+                <group>[Channel1]</group>
+                <key>beatjump_backward</key>
+                <description>[Channel1] beatjump_backward noteOn</description>
+                <status>0x90</status>
+                <midino>0x33</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>beatjump_backward</key>
+                <description>[Channel1] beatjump_backward noteOff</description>
+                <status>0x80</status>
+                <midino>0x33</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>beatjump_backward</key>
+                <description>[Channel2] beatjump_backward noteOn</description>
+                <status>0x90</status>
+                <midino>0x37</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>beatjump_backward</key>
+                <description>[Channel2] beatjump_backward noteOff</description>
+                <status>0x80</status>
+                <midino>0x37</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <!--  ==== BeatJump Forward ====  -->
+            <control>
+                <group>[Channel1]</group>
+                <key>beatjump_forward</key>
+                <description>[Channel1] beatjump_forward noteOn</description>
+                <status>0x90</status>
+                <midino>0x38</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>beatjump_forward</key>
+                <description>[Channel1] beatjump_forward noteOff</description>
+                <status>0x80</status>
+                <midino>0x38</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>beatjump_forward</key>
+                <description>[Channel2] beatjump_forward noteOn</description>
+                <status>0x90</status>
+                <midino>0x3A</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>beatjump_forward</key>
+                <description>[Channel2] beatjump_forward noteOff</description>
+                <status>0x80</status>
+                <midino>0x3A</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+
+            <!--  ==== Reverse ====  -->
+            <control>
+                <group>[Channel1]</group>
+                <key>reverse</key>
+                <description>[Channel1] reverse noteOn</description>
+                <status>0x90</status>
+                <midino>0x30</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>reverse</key>
+                <description>[Channel1] reverse noteOff</description>
+                <status>0x80</status>
+                <midino>0x30</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>reverse</key>
+                <description>[Channel2] reverse noteOn</description>
+                <status>0x90</status>
+                <midino>0x34</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>reverse</key>
+                <description>[Channel2] reverse noteOff</description>
+                <status>0x80</status>
+                <midino>0x34</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+
+            <!--  ==== BeatSync ====  -->
+            <control>
+                <group>[Channel1]</group>
+                <key>beatsync</key>
+                <description>[Channel1] beatsync noteOn</description>
+                <status>0x90</status>
+                <midino>0x31</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>beatsync</key>
+                <description>[Channel1] beatsync noteOff</description>
+                <status>0x80</status>
+                <midino>0x31</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>beatsync</key>
+                <description>[Channel2] beatsync noteOn</description>
+                <status>0x90</status>
+                <midino>0x35</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>beatsync</key>
+                <description>[Channel2] beatsync noteOff</description>
+                <status>0x80</status>
+                <midino>0x35</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+
+            <!--  ==== Sync Enabled ====  -->
+            <control>
+                <group>[Channel1]</group>
+                <key>sync_enabled</key>
+                <description>[Channel1] sync_enabled noteOn</description>
+                <status>0x90</status>
+                <midino>0x32</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>sync_enabled</key>
+                <description>[Channel1] sync_enabled noteOff</description>
+                <status>0x80</status>
+                <midino>0x32</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>sync_enabled</key>
+                <description>[Channel2] sync_enabled noteOn</description>
+                <status>0x90</status>
+                <midino>0x36</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>sync_enabled</key>
+                <description>[Channel2] sync_enabled noteOff</description>
+                <status>0x80</status>
+                <midino>0x36</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+
+            <!--  ==== Re-Loop Toggle ====  -->
+            <!--
+            <control>
+                <group>[Channel1]</group>
+                <key>reloop_toggle</key>
+                <description>[Channel1] reloop_toggle noteOn</description>
+                <status>0x90</status>
+                <midino>0x33</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>reloop_toggle</key>
+                <description>[Channel1] reloop_toggle noteOn</description>
+                <status>0x80</status>
+                <midino>0x33</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>reloop_toggle</key>
+                <description>[Channel2] reloop_toggle noteOn</description>
+                <status>0x90</status>
+                <midino>0x39</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>reloop_toggle</key>
+                <description>[Channel2] reloop_toggle noteOn</description>
+                <status>0x80</status>
+                <midino>0x39</midino>
+                <options>
+                    <normal/>
+                </options>
+                </control>
+            -->
+        </controls>
+        <outputs/>
+    </controller>
+</MixxxControllerPreset>
